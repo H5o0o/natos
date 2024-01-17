@@ -21,6 +21,7 @@
 /.env
 /assets/images/
 !/assets/images/.gitkeep
+!/assets/images/logo.png
 /migrations/*.php
 /.idea/
 ###< custom settings ###
