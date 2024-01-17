@@ -22,6 +22,7 @@
 /assets/images/
 !/assets/images/.gitkeep
 /migrations/*.php
+/.idea/
 ###< custom settings ###
 
 ###> symfony/webpack-encore-bundle ###
