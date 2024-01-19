@@ -8,3 +8,5 @@
 // any CSS you import will output into a single css file (app.css in this case)
 import './styles/app.css';
 import './images/logo.png';
+import './images/banner.png';
+import './images/bannerMobile.jpg';

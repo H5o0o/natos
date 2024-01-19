@@ -1,0 +1,5 @@
+{% extends "base.html.twig" %}
+{% block body %}
+{{ form (form) }}
+<a href="{{ path("admin_mobile_banner_delete", {"id":banner.id, "csrf_token":csrf_token("mobile_banner_delete" ~banner.id)}) }}" class="btn btn-danger">Supprimer image mobile</a>
+{% endblock body %} 
