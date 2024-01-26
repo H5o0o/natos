@@ -1,0 +1,7 @@
+{% if biography is not empty  %}
+<img src={{ asset ("/images/biography/" ~ biography.image) }} alt="photo">
+{{ biography.text }}
+{% endif %}
+
+
+
